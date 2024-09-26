@@ -1,0 +1,24 @@
+﻿@model Home
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-mt3">
+    @if (!Home.IsActive)
+    {
+        <h1 class="display-4">Comment vous vous appelez?</h1>
+        <div class="form-group position-relative" style="width: 300px;">
+            <form method="post">
+                <input name="Name" type="text" class="form-control" placeholder="Your name" autofocus required />
+                <button type="submit" class="btn btn-primary position-absolute" style="margin-top:10px;">
+                    Valider
+                    </button>
+            </form>
+        </div>
+    }
+    else{
+        <h1 class="display-4">Bonjour @Model.Name</h1>
+        <a asp-action="Index" asp-controller="TodoItem" class="btn btn-primary">Overview</a>
+    }
+</div>
+

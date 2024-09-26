@@ -1,0 +1,52 @@
+﻿@model IEnumerable<TodoList.Models.TodoItem>
+
+@{
+    ViewData["Title"] = "To-do List";
+}
+
+<h1>To-do List</h1>
+
+<p>
+    <button class="btn btn-success">
+        <a asp-action="Create" class="text-light text-decoration-none">Ajouter nouveau tâche</a>
+    </button>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                Status
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDone)
+            </td>
+            <td>
+                    <button class="btn btn-secondary">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="text-light text-decoration-none">Modifier</a>
+                    </button> 
+                    <button class="btn btn-danger">
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="text-light text-decoration-none">Supprimer</a>
+                    </button>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
