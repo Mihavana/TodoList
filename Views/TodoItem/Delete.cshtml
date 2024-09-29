@@ -32,7 +32,15 @@
     </dl>
     
     <form asp-action="Delete">
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <tbody>
+            <tr>
+                <th>
+                    <input type="submit" value="Delete" class="btn btn-danger" /> |
+                    <button class="btn btn-secondary">
+                        <a asp-action="Index" class="text-light text-decoration-none">Back to List</a>
+                    </button>
+                </th>
+            </tr>
+        </tbody>
     </form>
 </div>

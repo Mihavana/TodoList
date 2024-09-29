@@ -226,3 +226,4 @@ D:\Langage\C#\.Net\TodoList\TodoList\obj\Debug\net8.0\ref\TodoList.dll
 D:\Langage\C#\.Net\TodoList\TodoList\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\Langage\C#\.Net\TodoList\TodoList\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Langage\C#\.Net\TodoList\TodoList\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Langage\C#\.Net\TodoList\TodoList\obj\Debug\net8.0\TodoList.sourcelink.json

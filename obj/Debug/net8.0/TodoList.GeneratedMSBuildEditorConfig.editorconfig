@@ -26,12 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Langage\C#\.Net\TodoList\TodoList
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Langage/C\#/.Net/TodoList/TodoList/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/Langage/C\#/.Net/TodoList/TodoList/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Langage/C\#/.Net/TodoList/TodoList/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/Langage/C\#/.Net/TodoList/TodoList/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Langage/C\#/.Net/TodoList/TodoList/Views/Shared/Error.cshtml]

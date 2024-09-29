@@ -30,7 +30,7 @@ namespace TodoList.Controllers
             return View(myModel);
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
             return View();
         }
