@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u8sogq8wAm33rS2v1xEsiVD7rmYVRZO8N6FjqBhcuOc=",
+  "Hash": "SVhw3op4ntR4n2iKWoxivqda/2IL65v9QejWN7i+/kU=",
   "Source": "TodoList",
   "BasePath": "_content/TodoList",
   "Mode": "Default",
@@ -72,25 +72,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\wwwroot\\favicon.ico",
-      "SourceId": "TodoList",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\wwwroot\\",
-      "BasePath": "_content/TodoList",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\wwwroot\\js\\site.js",
@@ -1193,6 +1174,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\wwwroot\\todoIcon.png",
+      "SourceId": "TodoList",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\wwwroot\\",
+      "BasePath": "_content/TodoList",
+      "RelativePath": "todoIcon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\todoIcon.png"
     }
   ]
 }

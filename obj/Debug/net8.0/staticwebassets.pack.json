@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -243,6 +239,10 @@
     {
       "Id": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\wwwroot\\todoIcon.png",
+      "PackagePath": "staticwebassets\\todoIcon.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TodoList.Microsoft.AspNetCore.StaticWebAssets.props",
