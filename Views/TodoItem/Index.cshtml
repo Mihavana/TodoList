@@ -28,29 +28,39 @@
             </tr>
         </thead>
         <tbody>
-    @foreach (var item in Model) {
+    <div class="accordion" id="identification"></div>
+        @foreach (var item in Model) {
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.Id)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Title)
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse@(item.Id)" aria-expanded="false" aria-controls="collapse@(item.Id)">
+                                @item.Title
+                            </button>
+                        </h2>
+                        <div id="collapse@(item.Id)" class="accordion-collapse collapse" data-bs-parent="#identification">
+                            <div class="accordion-body">@item.Description</div>
+                        </div>
+                    </div>
+                    
                 </td>
                 <td>
-                    <label class="form-check-label">
-                        <input class="form-check-input" asp-for="@item.IsDone" />
-                    </label>
+                    @Html.DisplayFor(modelItem => item.IsDone)
                 </td>
                 <td>
-                        <button class="btn btn-secondary">
-                            <a asp-action="Edit" asp-route-id="@item.Id" class="text-light text-decoration-none">Modifier</a>
-                        </button> 
-                        <button class="btn btn-danger">
-                            <a asp-action="Delete" asp-route-id="@item.Id" class="text-light text-decoration-none">Supprimer</a>
-                        </button>
+                    <button class="btn btn-secondary">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="text-light text-decoration-none">Modifier</a>
+                    </button> 
+                    <button class="btn btn-danger">
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="text-light text-decoration-none">Supprimer</a>
+                    </button>
                 </td>
             </tr>
-    }
+        }
+    </div>
         </tbody>
     </table>
 </div>
