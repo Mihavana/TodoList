@@ -22,7 +22,16 @@
                 <th>
                     Status
                 </th>
-                <th></th>
+                <th>
+                    @if(TodoItem.tri)
+                    {
+                        <a asp-action = "Tri" class="text-decoration-none">Triage : Descendant</a>
+                    }
+                    else
+                    {
+                        <a asp-action = "Tri" class="text-decoration-none">Triage : Ascendant</a>
+                    }
+                </th>
             </tr>
         </thead>
         <tbody>

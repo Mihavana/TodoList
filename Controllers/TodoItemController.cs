@@ -7,7 +7,7 @@ namespace TodoList.Controllers
     public class TodoItemController : Controller
     {
         private readonly TodoItemDbContext _context;
-
+        
         public TodoItemController(TodoItemDbContext context)
         {
             _context = context;
@@ -15,9 +15,25 @@ namespace TodoList.Controllers
 
         public IActionResult Index()
         {
-            var AllItem = _context.items.OrderByDescending(i => i.Id).ToList();
-            return View(AllItem);
+            
+            if(TodoItem.tri)
+            {
+                var AllItem = _context.items.OrderByDescending(i => i.Id).ToList();
+                return View(AllItem);
+            }
+            else
+            {
+                var AllItem = _context.items.OrderBy(i => i.Id).ToList();
+                return View(AllItem);
+            }
         }
+
+        public IActionResult Tri()
+        {
+            TodoItem.tri = !TodoItem.tri;
+            return RedirectToAction("Index");
+        }
+
 
         public IActionResult Create()
         {
