@@ -15,7 +15,7 @@ namespace TodoList.Controllers
 
         public IActionResult Index()
         {
-            var AllItem = _context.items.ToList();
+            var AllItem = _context.items.OrderByDescending(i => i.Id).ToList();
             return View(AllItem);
         }
 

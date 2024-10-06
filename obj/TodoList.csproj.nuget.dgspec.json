@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\TodoList.csproj": {}
+    "D:\\Langage\\C#\\.Net\\TodoList\\TodoList.csproj": {}
   },
   "projects": {
-    "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\TodoList.csproj": {
+    "D:\\Langage\\C#\\.Net\\TodoList\\TodoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\TodoList.csproj",
+        "projectUniqueName": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList.csproj",
         "projectName": "TodoList",
-        "projectPath": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\TodoList.csproj",
+        "projectPath": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList.csproj",
         "packagesPath": "C:\\Users\\kllua\\.nuget\\packages\\",
-        "outputPath": "D:\\Langage\\C#\\.Net\\TodoList\\TodoList\\obj\\",
+        "outputPath": "D:\\Langage\\C#\\.Net\\TodoList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kllua\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,7 +50,17 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.8, )"
             },
