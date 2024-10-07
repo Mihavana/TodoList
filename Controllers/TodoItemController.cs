@@ -28,9 +28,16 @@ namespace TodoList.Controllers
             }
         }
 
-        public IActionResult Tri()
+        public IActionResult Tri(bool isTrue)
         {
-            TodoItem.tri = !TodoItem.tri;
+            if(isTrue)
+            {
+                TodoItem.tri = true;
+            }
+            else
+            {
+             TodoItem.tri = false;   
+            }
             return RedirectToAction("Index");
         }
 
