@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Langage\\C#\\.Net\\TodoList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06A82E6A-BE3A-4D61-8FDB-D816A5D51AE7}|TodoList.csproj|d:\\langage\\c#\\.net\\todolist\\todoitemdbcontext\\todoitemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A82E6A-BE3A-4D61-8FDB-D816A5D51AE7}|TodoList.csproj|solutionrelative:todoitemdbcontext\\todoitemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A82E6A-BE3A-4D61-8FDB-D816A5D51AE7}|TodoList.csproj|d:\\langage\\c#\\.net\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A82E6A-BE3A-4D61-8FDB-D816A5D51AE7}|TodoList.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A82E6A-BE3A-4D61-8FDB-D816A5D51AE7}|TodoList.csproj|d:\\langage\\c#\\.net\\todolist\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A82E6A-BE3A-4D61-8FDB-D816A5D51AE7}|TodoList.csproj|solutionrelative:models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A82E6A-BE3A-4D61-8FDB-D816A5D51AE7}|TodoList.csproj|d:\\langage\\c#\\.net\\todolist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06A82E6A-BE3A-4D61-8FDB-D816A5D51AE7}|TodoList.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A82E6A-BE3A-4D61-8FDB-D816A5D51AE7}|TodoList.csproj|d:\\langage\\c#\\.net\\todolist\\controllers\\todoitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A82E6A-BE3A-4D61-8FDB-D816A5D51AE7}|TodoList.csproj|solutionrelative:controllers\\todoitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Langage\\C#\\.Net\\TodoList\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Langage\\C#\\.Net\\TodoList\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-11T17:39:37.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "D:\\Langage\\C#\\.Net\\TodoList\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Models\\TodoItem.cs",
+              "ToolTip": "D:\\Langage\\C#\\.Net\\TodoList\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Models\\TodoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T17:23:08.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Langage\\C#\\.Net\\TodoList\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Langage\\C#\\.Net\\TodoList\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T17:12:05.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoItemController.cs",
+              "DocumentMoniker": "D:\\Langage\\C#\\.Net\\TodoList\\Controllers\\TodoItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TodoItemController.cs",
+              "ToolTip": "D:\\Langage\\C#\\.Net\\TodoList\\Controllers\\TodoItemController.cs",
+              "RelativeToolTip": "Controllers\\TodoItemController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wBsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:20:54.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoItemDbContext.cs",
+              "DocumentMoniker": "D:\\Langage\\C#\\.Net\\TodoList\\ToDoItemDbContext\\TodoItemDbContext.cs",
+              "RelativeDocumentMoniker": "ToDoItemDbContext\\TodoItemDbContext.cs",
+              "ToolTip": "D:\\Langage\\C#\\.Net\\TodoList\\ToDoItemDbContext\\TodoItemDbContext.cs",
+              "RelativeToolTip": "ToDoItemDbContext\\TodoItemDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T16:19:21.735Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

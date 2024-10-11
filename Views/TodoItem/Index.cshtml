@@ -22,10 +22,10 @@
                 <th>
                     Status
                 </th>
-                <th class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <a class="navl-link dropdown-toggle text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                <th>
+                    <button class="navl-link dropdown-toggle text-light btn btn-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
                         Tri
-                    </a>
+                    </button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="@Url.Action("Tri", "TodoItem", new{isTrue = true})"  class="text-decoration-none">Descendant</a></li>
                         <li><a class="dropdown-item" href="@Url.Action("Tri", "TodoItem", new{isTrue = false})" class="text-decoration-none">Ascendant</a></li>
