@@ -10,7 +10,6 @@ namespace TodoList.ToDoItemDbContext
         {
             
         }
-
         public DbSet<TodoItem> items { get; set; }
     }
 }
